@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body{
+    background: #fff;
+}
+
+.overall{
+    height: 100vh;
+    /* height: auto; */
+}
+
+.leftHalf{
+    background-color: #d4d1d1a2;
+    height: 100%;
+    
+}
+
+.rightHalf{
+    /* background: rgb(243, 58, 58); */
+    height: 100%;
+}
+
+.logo{
+    border: 1px solid green;
+    height: 70px;
+    margin: 40px 0 0 70px;
+}
+
+.rightSideWrap{
+    position: relative;
+}
+
+
+@media screen and (max-width:799px){
+    .login{
+        /* left:100px; */
+    }
+}
+.loginLink{
+    text-decoration: none;
+    padding: 7px 15px;
+    color: #111;
+    font-weight: 500;
+    margin: 20px;
+}
+
+.formWrap{
+    /* border: 2px solid red; */
+    /* height: 500px; */
+    position: absolute;
+    top: 75px;
+    padding: 0 50px;
+}
+
+.heading1{
+    font-size: 1.7em;
+    font-weight: bolder;
+}
+
+.myForm{
+    /* border: 2px dashed blue; */
+    margin-top: 15px;
+}
+
+.inputField{
+    border-radius: 4px;
+}
+
+.labelz{
+    font-size: 0.9em;
+    font-weight: 500;
+    margin: 0;
+}
+
+.submitbtn{
+    background: #01953B;
+    color: #fff;
+    font-size: 0.9em;
+    font-weight: 500;
+    transition: background .4s ease;
+}
+
+.submitbtn:hover{
+    background: #111;
+    color: #fff;
+    box-shadow: 2px 1px 7px #999;
+    transform: scale(1.001);
+}
+
+.acct{
+    /* border: 1px solid #111; */
+}
+
+.acct p{
+    font-size: 0.9em;
+    color: #979797;
+    text-align: center;
+}
+
+.acct a{
+    color: #01953B;
+}
