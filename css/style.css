@@ -115,10 +115,6 @@ body {
   transform: scale(1.001);
 }
 
-.acct {
-  /* border: 1px solid #111; */
-}
-
 .acct p {
   font-size: 0.9em;
   color: #979797;
@@ -127,4 +123,9 @@ body {
 
 .acct a {
   color: #01953b;
+}
+
+.acct a:hover {
+  color: red;
+  font-weight: 500;
 }
